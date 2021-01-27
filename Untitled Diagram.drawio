@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T02:36:33.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="e1lP70cmIWh33PuTu26r" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-27T04:57:14.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="vJmvfORc72wsRl_dTcfF" version="14.2.7" type="github">
   <diagram id="RfPRFkSqoJjCLH62MmH5" name="Page-1">
-    <mxGraphModel dx="2302" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-1" value="取込み" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="120" as="sourcePoint" />
+            <mxPoint x="140" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-4" value="データの取り込み&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="170" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-5" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139.5" y="300" as="sourcePoint" />
+            <mxPoint x="139.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-6" value="データの型チェック" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="440" as="sourcePoint" />
+            <mxPoint x="140" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-8" value="取り込み実行される" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-9" value="&lt;font size=&quot;3&quot;&gt;データ取り込む際に、必須項目チェックと&lt;br&gt;ファイルの型チェックと、取込ファイルのバリデーション&lt;br&gt;チェックが実行される。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="480" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-17" value="DBにデータ&lt;br&gt;が入る" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="650" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UGhpLzrf99iwNW9q3Uxb-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="630" as="sourcePoint" />
+            <mxPoint x="140" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UGhpLzrf99iwNW9q3Uxb-17" target="UGhpLzrf99iwNW9q3Uxb-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="760" as="sourcePoint" />
+            <mxPoint x="135" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UGhpLzrf99iwNW9q3Uxb-20" value="詳細画面の上に&lt;br&gt;データを表示する" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
